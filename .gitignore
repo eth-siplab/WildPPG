@@ -1,0 +1,7 @@
+*processing_files*
+*proccessing_files*
+*.asv
+data/*
+.idea/*
+*.csv
+*.mat
