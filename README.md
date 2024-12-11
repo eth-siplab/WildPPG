@@ -1,3 +1,12 @@
+## WildPPG: A Real-World PPG Dataset of Long Continuous Recordings (NeurIPS 2024, Official Code)
+
+[Manuel Meier](https://scholar.google.com/citations?user=L6f-xg0AAAAJ), [Berken Utku Demirel](https://scholar.google.com/citations?user=zbgxpdIAAAAJ), [Christian Holz](https://www.christianholz.net)<br/>
+
+[Sensing, Interaction & Perception Lab](https://siplab.org), Department of Computer Science, ETH Zürich, Switzerland <br/>
+<p align="center">
+</p>
+
+___________
 
 ![Image](docs/wildppg.jpg)
 # Loading the Dataset
@@ -25,3 +34,28 @@ This will compare the derived heart rates to ecg-based ground truth, produce a p
 ```
 python main_supervised_baseline.py --dataset 'alt' --backbone 'resnet' --block 8 --stride 2 --lr 5e-4 --batch_size 128 --n_epoch 999 --cuda 0
 ```
+
+Citation
+----------
+If your find our dataset, paper or codes useful, please cite our work:
+
+```
+@inproceedings{meier2024wildppg,
+  title={WildPPG: A Real-World PPG Dataset of Long Continuous Recordings},
+  author={Meier, Manuel and Demirel, Berken Utku and Holz, Christian},
+  booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2024},
+}
+```
+
+License
+---------
+
+All data is released under CC BY-NC-SA 4.0 license (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International)
+
+Code of WildPPG is licensed under GNU General Public License version 3 (GPL-3.0)
+
+Note: Some of the code to compute benchmarks is released under different licenses, please consult the [license file](LICENSE.md) for more detailed information.
+
+
+
