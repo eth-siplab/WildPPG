@@ -19,7 +19,7 @@ def load_domain_data(domain_idx):
     str_folder = '/data/'
     data_all = scipy.io.loadmat(str_folder + 'WildPPG.mat')
 
-    data = data_all['data_ppg_wrist']
+    data = data_all['data_ppg_g_wrist']
     data_temp = data_all['data_temp_wrist']
     data_labels = data_all['data_bpm_values']
     domain_idx = int(domain_idx)
