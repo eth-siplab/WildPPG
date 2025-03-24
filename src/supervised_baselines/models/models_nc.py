@@ -510,4 +510,4 @@ class ResNet1D(nn.Module):
         
         return out_class, out    
 
-        return q, attn       
+        # return q, att       
