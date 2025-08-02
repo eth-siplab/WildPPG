@@ -6,14 +6,14 @@ We provide **cleaned, ground-truth heart rate data** (using the Pan–Tompkins a
 * **MATLAB:**
   See [`MATLAB_WildPPG.m`](MATLAB_WildPPG.m) for a ready-to-use script that automatically downloads and loads the dataset from Hugging Face if it is not already present.
 * **Python:**
-  [`python_WildPPG.m`](python_WildPPG.m)
+  [`python_WildPPG.py`](python_WildPPG.py)
 
 ---
 
 ### Dataset Details
 
 * Each variable is organized as a cell array with one entry per subject (16x1).
-* Example signals include PPG (head and wrist), heart rate, altitude, temperature, and IMU from all sensors.
+* Example signals include PPG, heart rate, altitude, temperature, and IMU from all sensors.
 
 ---
 
