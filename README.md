@@ -4,8 +4,14 @@
 
 [Sensing, Interaction & Perception Lab](https://siplab.org), Department of Computer Science, ETH Zürich, Switzerland <br/>
 
+
 ___________
-Quick Links: 
+Quick Start
+
+We have also provided the ground truth heart rate (cleaned version after Pan–Tompkins algorithm) while corresponding PPG and IMU segments for easy experimenting. The structured data is included in ... and the code to obtain data is in folder. 
+
+___________
+Links: 
 - [Project Website](https://siplab.org/projects/WildPPG)
 - [Paper](https://static.siplab.org/papers/neurips2024-wildppg.pdf)
 - [Dataset](https://polybox.ethz.ch/index.php/s/NWTuyNojU7aya1y)
