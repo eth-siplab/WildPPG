@@ -13,7 +13,7 @@ We provide **cleaned, ground-truth heart rate data** (using the Pan–Tompkins a
 ### Dataset Details
 
 * Each variable is organized as a cell array with one entry per subject (16x1).
-* Example signals include PPG, heart rate, altitude, temperature, and IMU from all sensors.
+* Signals include PPG, heart rate, altitude, temperature, and IMU from all sensors.
 
 ---
 
