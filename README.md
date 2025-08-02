@@ -4,13 +4,17 @@
 
 [Sensing, Interaction & Perception Lab](https://siplab.org), Department of Computer Science, ETH Zürich, Switzerland <br/>
 
-<!--
-___________
-Quick Start
 
-We have also provided the ground truth heart rate (cleaned version after Pan–Tompkins algorithm) while corresponding PPG and IMU segments for easy experimenting. The structured data is included in ... and the code to obtain data is in folder. 
 
--->
+## Quick Start
+
+We provide cleaned ground-truth heart rate data (using the Pan–Tompkins algorithm and further cleaning) aligned with corresponding PPG signal segments for easy experimentation.
+The dataset is ready to use for developing and testing algorithms.
+
+* **Structured data is available on [Hugging Face Datasets](https://huggingface.co/datasets/eth-siplab/WildPPG/tree/main).**
+* **Data download and processing code is included in this repository.** (See [`quick_start`](quick_start) for usage.)
+
+
 
 ___________
 Links: 
